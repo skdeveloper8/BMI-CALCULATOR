@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: gray;
+    color: aliceblue;
+}
+h1,h2{
+    margin-top: 2rem;
+    padding-left: 35rem;
+}
+
+p{
+    margin-top: 1rem;
+    padding-left: 35rem;
+}
+button{
+    margin-top: 1rem;
+    margin-left: 40rem;
+    border: 2px solid wheat;
+    color: rgba(0, 0, 0, 0.678);
+}
+button:hover{
+    cursor: grabbing;
+}
+
+.weight-guide > p{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+.results{
+    margin-left: 40rem ;
+    margin-top: 1rem;
+    color: black;
+}
+@media (max-width:580px){
+    .container{
+        padding-left: 0rem;
+    }
+}
